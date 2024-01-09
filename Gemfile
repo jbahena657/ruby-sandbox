@@ -6,8 +6,9 @@ gem "pry-byebug"
 
 pp "what's your name?"
 
-their_name = gems
+their_name = gets.chomp
 
-pp "Hello, " + their_name + "!"
+
+puts "Hello, " + their_name + "!"
 
 require "./goodbye.rb"
